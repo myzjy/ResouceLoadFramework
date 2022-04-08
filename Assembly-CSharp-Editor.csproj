@@ -50,7 +50,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Game\Editor\Game.UnityEditor.Symbols\Symbols.cs" />
+     <Compile Include="Assets\Game\Editor\Game.Editor\ReouscePathFolderCreation.cs" />
+     <Compile Include="Assets\Game\Editor\Game.Editor\Symbols.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/xiangmu/ResouceLoadFramework/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>

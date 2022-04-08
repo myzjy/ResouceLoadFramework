@@ -51,6 +51,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\ResouceLoad\ResouceLoad.Script\ResouceLoadDebug.cs" />
+     <Compile Include="Assets\ResouceLoad\ResouceLoad.Script\ResouceLoadEnum.cs" />
+     <Compile Include="Assets\ResouceLoad\ResouceLoad.Script\ResouceLoadInterface.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/xiangmu/ResouceLoadFramework/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -36,7 +36,12 @@ namespace ResouceLoadFramework.DebugLog
         /// <param name="context"></param>
         public static void Log(string context)
         {
-            Console.WriteLine();
+#if DEBUGLOG
+            Console.WriteLine(context);
+#else
+            UnityEngine.Debug.Log(context);
+#endif
         }
+
     }
 }
