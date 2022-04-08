@@ -50,9 +50,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\ResouceLoad\ResouceLoad.Script\ResouceLoadDebug.cs" />
-     <Compile Include="Assets\ResouceLoad\ResouceLoad.Script\ResouceLoadEnum.cs" />
-     <Compile Include="Assets\ResouceLoad\ResouceLoad.Script\ResouceLoadInterface.cs" />
+     <Compile Include="Assets\ResourcesLoad\ResourcesLoad.Script\ResourcesLoadDebug.cs" />
+     <Compile Include="Assets\ResourcesLoad\ResourcesLoad.Script\ResourcesLoadEnum.cs" />
+     <Compile Include="Assets\ResourcesLoad\ResourcesLoad.Script\ResourcesLoadInterface.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/xiangmu/ResouceLoadFramework/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -1,9 +1,9 @@
-﻿namespace ResouceLoadFramework
+﻿namespace ResourcesLoadFramework
 {
     /// <summary>
     /// ResouceLoad 读取接口
     /// </summary>
-    public interface ResouceLoadInterface
+    public interface ResourcesLoadInterface
     {
         /// <summary>
         /// 设置基础Resouce路径
@@ -15,6 +15,6 @@
         /// 根据Enum分别创建出读取路径
         /// </summary>
         /// <param name="_loadEnum"></param>
-        void SetResouceEnumPath(ResouceLoadEnum _loadEnum);
+        void SetResouceEnumPath(ResourcesLoadEnum _loadEnum);
     }
 }

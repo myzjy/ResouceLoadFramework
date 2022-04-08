@@ -1,9 +1,9 @@
-﻿namespace ResouceLoadFramework
+﻿namespace ResourcesLoadFramework
 {
     /// <summary>
     /// Resouce读取枚举
     /// </summary>
-    public enum ResouceLoadEnum
+    public enum ResourcesLoadEnum
     {
         Item,
         Role,

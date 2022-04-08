@@ -3,27 +3,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ResouceLoadFramework.DebugLog
+namespace ResourcesLoadFramework.DebugLog
 {
     /// <summary>
     /// resouceLoad Debug
     /// </summary>
-    public class ResouceLoadDebug : UnityEngine.Debug
+    public class ResourcesLoadDebug : UnityEngine.Debug
     {
         /// <summary>
         /// log单例 
         /// </summary>
-        private static ResouceLoadDebug debugInstance = null;
+        private static ResourcesLoadDebug debugInstance = null;
 
         /// <summary>
         /// 外部调用log 打印
         /// </summary>
         /// <returns></returns>
-        public static ResouceLoadDebug DebugInstance()
+        public static ResourcesLoadDebug DebugInstance()
         {
             if (debugInstance == null)
             {
-                debugInstance = new ResouceLoadDebug();
+                debugInstance = new ResourcesLoadDebug();
             }
 
             //返回单例
